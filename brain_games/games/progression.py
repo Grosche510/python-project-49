@@ -10,5 +10,5 @@ def generate_data():
     right_answer = result[random_index]
     result[random_index] = '..'
     question = ' '.join(map(str, (result)))
-    result question, str(right_answer)
+    return question, str(right_answer)
 
