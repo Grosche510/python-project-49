@@ -4,10 +4,10 @@ RULE = 'What is the result of the expression?'
 
 
 def generate_data():
-    operator = ['+', '-', '*']
+    operations = ['+', '-', '*']
     number1 = randint(1, 10)
     number2 = randint(1, 10)
-    operator = random.choice(operators)
+    operator = random.choice(operations)
     question = f"{number1} {operator} {number2}"
     if operator == '+':
         right_answer = number1 + number2
