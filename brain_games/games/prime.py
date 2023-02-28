@@ -15,7 +15,7 @@ def generate_data():
     question = randint(1, 10)
     number = question
     if is_prime(number):
-        rigth_answer = 'yes'
+        right_answer = 'yes'
     else:
-        rigth_answer = 'no'
+        right_answer = 'no'
     return question, right_answer
