@@ -10,3 +10,5 @@ https://asciinema.org/a/ZuF2Q5Jdgv8M68YPnr5Ub6W4E
 https://asciinema.org/a/XSLB1zfXS8Zq5OKMdQcl5OKS4
 
 https://asciinema.org/a/uC2UODBFt5MgPkPOOBn1yVTn9
+
+https://asciinema.org/a/CPIabv9JQAYtpc3ADTtbx9fxq
