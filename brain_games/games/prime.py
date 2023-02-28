@@ -11,6 +11,7 @@ def is_prime(number):
             return False
     return True
 
+
 def generate_data():
     question = randint(1, 10)
     number = question
