@@ -9,14 +9,13 @@ def is_prime(number):
     for i in range(2, int(math.sqrt(number) + 1)):
         if number % i == 0:
             return False
-    else:
-        return True
+    return True
 
 def generate_date():
     question = randint(1, 10)
     number = question
     if is_prime(number):
         rigth_answer = 'yes'
-   else:
+    else:
         rigth_answer = 'no'
-   return question, right_answer
+    return question, right_answer
