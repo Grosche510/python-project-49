@@ -12,7 +12,7 @@ def generate_data():
     if operator == '+':
         right_answer = number1 + number2
     elif operator == '-':
-         right_answer = number1 - number2
+        right_answer = number1 - number2
     elif operator == '*':
-         right_answer = number1 * number2
+        right_answer = number1 * number2
     return question, str(right_answer)
