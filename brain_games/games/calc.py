@@ -14,10 +14,14 @@ def game_plan():
     number2 = randint(MIN_RANGE, MAX_RANGE)
     operator = random.choice(operations)
     question = f"{number1} {operator} {number2}"
+    right_answer = str(calculate(number1, number2, operations))
+    return question, right_answer
+
+def calculate(number1, number2, operations):
     if operator == '+':
-        right_answer = number1 + number2
+        result = number1 + number2
     elif operator == '-':
-        right_answer = number1 - number2
+        result = number1 - number2
     elif operator == '*':
-        right_answer = number1 * number2
-    return question, str(right_answer)
+        result = number1 * number2
+    return result
