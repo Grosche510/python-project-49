@@ -9,12 +9,11 @@ OPERATION2 = '-'
 OPERATION3 = '*'
 
 def game_plan():
-    operations = [OPERATION1, OPERATION2, OPERATION3]
+    operator =choice([OPERATION1, OPERATION2, OPERATION3])
     number1 = randint(MIN_RANGE, MAX_RANGE)
     number2 = randint(MIN_RANGE, MAX_RANGE)
-    operator = random.choice(operations)
     question = f"{number1} {operator} {number2}"
-    right_answer = str(calculate(number1, number2, operations))
+    right_answer = str(calculate(number1, number2, operator))
     return question, right_answer
 
 def calculate(number1, number2, operations):
