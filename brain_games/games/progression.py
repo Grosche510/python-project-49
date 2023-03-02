@@ -3,7 +3,7 @@ from random import randint
 MIN_STOP = 50
 MAX_STOP = 100
 MIN_INTERVAL = 1
-MAX_INTERVAL = 5
+MAX_INTERVAL = 10
 MIN_RANGE = 0
 MAX_RANGE = 9
 RULE = 'What number is missing in the progression?'
