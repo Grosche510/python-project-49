@@ -12,7 +12,7 @@ RULE = 'What number is missing in the progression?'
 def game_plan():
     stop = randint(MIN_STOP, MAX_STOP)
     interval = randint(MIN_INTERVAL, MAX_INTERVAL)
-    result = list(range(randint(MIN_RANGE, MAX_RANGE), stop, interval))[: 5]
+    result = list(range(randint(MIN_RANGE, MAX_RANGE), stop, interval))[: 10]
     hidden_index = randint(0, len(result) - 1)
     right_answer = str(result[hidden_index])
     result[hidden_index] = '..'
