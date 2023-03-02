@@ -18,9 +18,9 @@ def game_plan():
 
 def calculate(number1, number2, operation):
     if operation == OPERATION1:
-        result = number1 OPERATION1 number2
+        result = number1 + number2
     elif operation == OPERATION2:
-        result = number1 OPERATION2 number2
+        result = number1 - number2
     elif operation == OPERATION3:
-        result = number1 OPERATION3 number2
+        result = number1 * number2
     return result
