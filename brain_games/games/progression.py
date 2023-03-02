@@ -14,7 +14,7 @@ def game_plan():
     interval = randint(MIN_INTERVAL, MAX_INTERVAL)
     result = list(range(randint(MIN_RANGE, MAX_RANGE), stop, interval))[: 5]
     hidden_index = randint(0, len(result) - 1)
-    right_answer = result[hidden_index]
+    right_answer = str(result[hidden_index])
     result[hidden_index] = '..'
-    question = ' '.join(map(str, (result)))
-    return question, str(right_answer)
+    question = ' '.join(map(str, result))
+    return question, right_answer
