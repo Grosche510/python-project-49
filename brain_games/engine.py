@@ -11,7 +11,7 @@ def play(game):
         question, right_answer = game.game_plan()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
-        if right_answer == answer:
+        if answer == right_answer:
             print('Correct!')
         else:
             print(
