@@ -12,7 +12,7 @@ def is_prime(number):
     return True
 
 
-def generate_data():
+def game_plan():
     question = randint(1, 10)
     number = question
     if is_prime(number):

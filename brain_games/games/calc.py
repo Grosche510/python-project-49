@@ -3,7 +3,7 @@ import random
 RULE = 'What is the result of the expression?'
 
 
-def generate_data():
+def game_plan():
     operations = ['+', '-', '*']
     number1 = randint(1, 10)
     number2 = randint(1, 10)
