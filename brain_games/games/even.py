@@ -8,6 +8,6 @@ def game_plan():
     question = randint(MIN_RANGE, MAX_RANGE)
     if question % 2 == 0:
         right_answer = 'yes'
-    elif question % 2 != 0:
+    else:
         right_answer = 'no'
     return question, right_answer
