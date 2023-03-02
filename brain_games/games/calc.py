@@ -1,5 +1,5 @@
 from random import randint
-import random
+from random import choice
 
 RULE = 'What is the result of the expression?'
 MIN_RANGE = 1
