@@ -11,13 +11,7 @@ def play(game):
         question, right_answer = game.game_plan()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
-        if answer == right_answer:
-            print('Correct!')
-        else:
-            print(
-                f'\"{answer}\" is wrong answer ;(.'
-                f' Correct answer was "{right_answer}".')
-            print(f"Let's try again, {name}!")
+        if (answer == right_answer) return('Correct!')
+        if (f'\"{answer}\" is wrong answer ;(.'f' Correct answer was "{right_answer}".') return(f"Let's try again, {name}!")
             break
-    else:
-        print(f'Congratulations, {name}!')
+        return(f'Congratulations, {name}!')
