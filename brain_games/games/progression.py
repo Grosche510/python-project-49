@@ -1,9 +1,9 @@
 from random import randint
 
 MIN_START = 1
-MAX_START = 30
-MIN_INTERVAL = 1
-MAX_INTERVAL = 5
+MAX_START = 20
+MIN_INTERVAL = 5
+MAX_INTERVAL = 10
 MIN_LANGTH = 5
 MAX_LANGTH = 10
 RULE = 'What number is missing in the progression?'
