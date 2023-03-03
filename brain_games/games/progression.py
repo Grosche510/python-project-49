@@ -7,16 +7,14 @@ MAX_INTERVAL = 5
 RULE = 'What number is missing in the progression?'
 
 
-def our_progression():
-    stop = (50, 100)
-    interval = (1, 5)
+def our_progression(stop, interval, result):
     result = list(range(randint(0, 9), stop, interval))[: 5]
     return result
 
 def game_plan():
     stop = randint(MIN_STOP, MAX_STOP)
     interval = randint(MIN_INTERVAL, MAX_INTERVAL)
-    result = our_progression()
+    result = our_progression(stop, interval, result)
     hidden_index = randint(0, len(result) - 1)
     right_answer = str(result[hidden_index])
     result[hidden_index] = '..'
