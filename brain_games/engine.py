@@ -13,10 +13,8 @@ def play(game):
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
 
-        if answer == right_answer:
-            print('Correct!')
-        else:
-            print(f'\"{answer}\" is wrong answer ;(.'f' Correct answer was "{right_answer}".')
-            print(f"Let's try again, {name}!")
-    else:
-        print(f'Congratulations, {name}!')
+        if (right_answer) print('Correct!')
+        if print(f'\"{answer}\" is wrong answer ;(.'f' Correct answer was "{right_answer}".')
+           print(f"Let's try again, {name}!")
+           break
+    print(f'Congratulations, {name}!')
