@@ -11,10 +11,13 @@ def play(game):
     for _ in range(ATTEMPTS):
         question, right_answer = game.game_plan()
         print(f"Question: {question}")
-        answer = prompt.string('Your answer: ')
+        answer = prompt.string('Your answer: ').lower()
 
-        if (right_answer) print('Correct!')
-        if print(f'\"{answer}\" is wrong answer ;(.'f' Correct answer was "{right_answer}".')
+        if answer == right_answer
+           print('Correct!')
+        else:
+           print(f'\"{answer}\" is wrong answer ;(.'f' Correct answer was "{right_answer}".')
            print(f"Let's try again, {name}!")
            break
-    print(f'Congratulations, {name}!')
+    else:
+        print(f'Congratulations, {name}!')
