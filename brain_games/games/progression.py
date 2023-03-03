@@ -15,8 +15,9 @@ def our_progression(start, interval, length):
     return result
 
 def game_plan():
-    stop = randint(MIN_START, MAX_START)
+    start = randint(MIN_START, MAX_START)
     interval = randint(MIN_INTERVAL, MAX_INTERVAL)
+    length = randint(MIN_LANGTH, MAX_LANGTH)
     result = our_progression(start, interval, length)
     hidden_index = randint(0, len(result) - 1)
     right_answer = str(result[hidden_index])
