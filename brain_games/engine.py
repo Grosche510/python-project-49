@@ -13,7 +13,7 @@ def play(game):
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ').lower()
 
-        if answer == right_answer
+        if answer == right_answer:
            print('Correct!')
         else:
            print(f'\"{answer}\" is wrong answer ;(.'f' Correct answer was "{right_answer}".')
