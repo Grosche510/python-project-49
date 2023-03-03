@@ -1,5 +1,6 @@
 from random import randint
 
+
 MIN_START = 1
 MAX_START = 30
 MIN_INTERVAL = 1
@@ -16,10 +17,11 @@ def our_progression(start, interval, length):
         numbers_list.append(index)
     return numbers_list
 
+
 def game_plan():
     start = randint(MIN_START, MAX_START)
     interval = randint(MIN_INTERVAL, MAX_INTERVAL)
-    length =  randint(MIN_LENGTH, MAX_LENGTH)
+    length = randint(MIN_LENGTH, MAX_LENGTH)
     progression = our_progression(start, interval, length)
     hidden_index = randint(0, len(progression) - 1)
     right_answer = str(progression[hidden_index])
