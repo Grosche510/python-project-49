@@ -8,10 +8,11 @@ MIN_LANGTH = 5
 MAX_LANGTH = 10
 RULE = 'What number is missing in the progression?'
 
+
 def our_progression(start, interval, length):
-stop = start + (length * interval)
-result = list(range(randint(start), stop, interval))
-return result
+    stop = start + (length * interval)
+    result = list(range(randint(start), stop, interval))
+    return result
 
 def game_plan():
     stop = randint(MIN_START, MAX_START)
