@@ -11,7 +11,7 @@ def play(game):
     for _ in range(ATTEMPTS):
         question, right_answer = game.game_plan()
         print(f"Question: {question}")
-        answer = prompt.string('Your answer: ').lower()
+        answer = prompt.string.lower('Your answer: ')
 
         if answer == right_answer:
            print('Correct!')
